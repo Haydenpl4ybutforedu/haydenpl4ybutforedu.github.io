@@ -1,0 +1,28 @@
+body {
+    font-family: Playwrite DE SAS, cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    background-image: url("Images/background.png");
+    background-size: cover;
+    margin
+}
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+h2 {
+    font-size: 30px;
+    color:#ff8888
+}
+h3 {
+    font-size: 35px;
+    color:#ffffff
+}
+button {
+    border: none;
+    background: transparent;
+    outline: none;
+    color:#ffffff;
+    font-size: 15px;
+}
