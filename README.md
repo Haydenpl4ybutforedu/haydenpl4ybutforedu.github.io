@@ -1,1 +1,28 @@
-# haydenpl4ybutforedu.github.io
+<!doctype html>
+<html> 
+	<head>
+		<link rel="stylesheet" href="background.css">
+		<title>
+			Cookie Clicker!
+        </title>
+	</head>
+	<body> 
+		
+		<center>
+		<h1> Cookie Clciker! </h1>
+		<h3 contenteditable="true"> Someone's Bakery </h3>
+		<h2 id="count"> 0 </h2>
+		<button onclick="count()"> <img src="Images/cookie.png" width="200px" height="200px"> </button>
+		</center>
+
+		<center>
+		<button id="Cursorbuy" onclick="upgrade1()"> <center> <p1 id="CursorAmount"> 0 </p1> </center> <img src="Images/cursor.webp" width="100px" height="100px"> <center> 10 cookies </center> </button>
+		<button id="Granmdabuy" onclick="upgrade2()"> <center> <p1 id="GrandmaAmount"> 0 </p1> </center> <img src="Images/Grandma.png" width="100px" height="100px"> <center> 15 cookies </center> </button>
+		<button id="FarmBuy" onclick="upgrade3()"> <center> <p1 id="FarmAmount"> 0 </p1> </center> <img src="Images/Farm.png" width="100px" height="100px"> <center> 20 cookies </center> </button>
+		<button id="MineBuy" onclick="upgrade4()"> <center> <p1 id="MineAmount"> 0 </p1> </center> <img src="Images/Mine.png" width="100px" height="100px"> <center> 25 cookies </center> </button>
+		<button id="FactoryBuy" onclick="upgrade5()"> <center> <p1 id="FactoryAmount"> 0 </p1> </center> <img src="Images/Factory.png" width="100px" height="100px"> <center> 30 cookies </center> </button>
+		</center>
+
+		<script type="text/javascript" src="test.js"> </script>
+    </body>
+</html>
